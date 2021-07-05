@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightcyan;
+    position: relative;
+}
+
+h3{
+    color: red;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color:royalblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+.review-container{
+    min-height:50vh;
+    min-width: 33vw;
+    background-image:linear-gradient(#b92b27,#1565C0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.reviews{
+    position: absolute;
+    top: 225px;
+    left: 550px;
+}
+
+.photo{
+    border-radius: 80%;
+    height:20vh;
+}
+.info{
+    width: 25vw;
+    color:grey;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    
+}
+
+.btn{
+    margin: 0 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    border: none;
+}
